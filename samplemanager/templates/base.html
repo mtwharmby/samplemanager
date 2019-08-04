@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="base.css">
+        {% if title %}
+        <title>{{ title }} - Microblog</title>
+        {% else %}
+        <title>Welcome to Microblog</title>
+        {% endif %}
+    </head>
+    <body>
+        <div>
+            Sample Manager: <a href="/index">Home</a>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html> 
