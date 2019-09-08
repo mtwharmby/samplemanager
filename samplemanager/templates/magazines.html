@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="base.css">
+        <title>Sample Manager - Sample Table</title>
+    </head>
+    <body>
+        <div>
+            Sample Manager:
+            <a href="/index">Home</a>
+            <a href="/exp_plan">Experiment Planner</a>
+            <a href="/samples">Samples</a>
+            <a href="/magazines">Magazines</a>
+            <a href="/scan_edit">Scan Editor</a>
+        </div>
+        <hr>
+        <div>
+            <h1>Magazines</h1>
+            <p>All of the magazines which are available as part of this beamtime. Additional magazines can be added or names can be changed in the application config file. Changes to the magazine information will require a restart of the application and existing magazines, loaded with samples, may be lost.</p>
+        </div>
+        <div>
+            <h2>Magazine 1</h2>
+            <p>Active: Yes (1)</p>
+        </div>
+        <div>
+            <table style="width:50%">
+            <tr>
+                <th>Position</th>
+                <th>Sample</th>
+            </tr>
+            <tr><td>1</td><td>MTW582</td><td>Select Sample</td></tr>
+            <!-- Sample selector should be *VERY* similar to the samples page, but with radio buttons for each sample and a select button
+                 Maybe this could be done with a flag passed to the renderer?-->
+            </table>
+        </div>
+    </body>
+</html> 

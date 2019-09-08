@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="base.css">
+        <title>Sample Manager - Sample Table</title>
+    </head>
+    <body>
+        <div>
+            Sample Manager:
+            <a href="/index">Home</a>
+            <a href="/exp_plan">Experiment Planner</a>
+            <a href="/samples">Samples</a>
+            <a href="/magazines">Magazines</a>
+            <a href="/scan_edit">Scan Editor</a>
+        </div>
+        <hr>
+        <div>
+            <h1>Experiment Planner</h1>
+            <p>Dark measurement valid for: 300 seconds</p>
+            <h2>Magazines</h2>
+            <p>Available magazines: 1, 2, 3, 5, 6<br />
+            Magazine order:<br />
+            <table>
+                <tr><th>Position</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+                <tr><th>Magazine</th><td>4</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            </table>
+            </p>
+        </div>
+        <div>
+            <h2>Experiment Plan</h2>
+            <p>List of samples to measure as part of this experiment and the scan confguration which will be used:</p>
+            <p>Add Sample&nbsp;&nbsp;Edit Selected</p> <!-- Edit needs to give the possibility to delete too; or we put a delete button here too-->
+            <table>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Sequence</th>
+                    <th>Sample</th>
+                    <th>Magazine Position</th>
+                    <th>Scan Config</th>
+                </tr>
+                <tr><!-- Each value here should be a link...? -->
+                    <td>ChkBx</td>
+                    <td>1</td>
+                    <td>MTW582</td>
+                    <td>1 (1)</td>
+                    <td>XRD + PDF Ambient (30mins)</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html> 
